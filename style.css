@@ -17,6 +17,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -35,4 +36,23 @@ main img {
   padding: 2rem;
   max-width: 100%;
   display: block;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: #111;
+  font-size: 2rem;
+  margin: 1rem;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+nav a:hover {
+  transform: rotate(20deg);
 }
