@@ -38,9 +38,16 @@ main img {
   display: block;
 }
 
+nav {
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
 nav ul {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   margin: 0;
   padding: 0;
 }
